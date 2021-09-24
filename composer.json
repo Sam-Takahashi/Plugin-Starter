@@ -1,0 +1,19 @@
+{
+  "name": "81801/sams-plugin-test",
+  "description": "For Plugin Tester",
+  "type": "project",
+  "license": "GPL",
+  "autoload": {
+    "psr-4": {
+      "Inc\\": "./inc"
+    }
+  },
+  "authors": [
+    {
+      "name": "Sam Takahashi",
+      "email": "sam.takahashi.sam@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
+}
