@@ -5,7 +5,9 @@
 
 namespace Inc\Pages;
 
- class AdminPages {
+use \Inc\Base\BaseController;
+
+ class AdminPages extends BaseController {
      
     public function register() {
         // add admin menu
@@ -21,6 +23,6 @@ namespace Inc\Pages;
     public function admin_index()
     {
         // require template
-        require_once PLUGIN_PATH . 'templates/admin.php';
+        require_once $this->plugin_path . 'templates/admin.php';
     }
  }

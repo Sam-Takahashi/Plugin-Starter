@@ -21,10 +21,7 @@ if (file_exists(dirname(__FILE__) . '/vendor/autoload.php')) {
     require_once dirname(__FILE__) . '/vendor/autoload.php';
 }
 
-// Define CONSTANTS
-define('PLUGIN', plugin_basename(__FILE__));
-define('PLUGIN_PATH', plugin_dir_path(__FILE__));
-define('PLUGIN_URL', plugin_dir_url(__FILE__));
+
 
 // The code that runs during pugin activation
 register_activation_hook( __FILE__ , array( 'Inc\Base\ActivatePlugin', 'activate' ) );
